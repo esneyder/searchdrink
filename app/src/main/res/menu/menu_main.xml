@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:icon="@android:drawable/ic_menu_add"
+    android:title="Agregar"
+    android:id="@+id/add"
+    app:showAsAction="ifRoom" />
+    <item
+        android:title="HYBRID"
+        android:id="@+id/maptypeHYBRID"/>
+
+    <item
+        android:title="NONE"
+        android:id="@+id/maptypeNONE"/>
+    <item
+        android:title="NORMAL"
+        android:id="@+id/maptypeNORMAL"/>
+    <item
+        android:title="SATELLITE"
+        android:id="@+id/maptypeSATELLITE"/>
+    <item
+        android:title="TERRAIN"
+        android:id="@+id/maptypeTERRAIN"/>
+</menu>

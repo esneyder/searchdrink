@@ -1,0 +1,9 @@
+﻿<resources>
+    <string name="app_name">SearchDrink</string>
+    <string name="facebook_app_id"> ID facebook APP</string>
+    <string name="email">Correo</string>
+    <string name="name">Facebook</string>
+    <string name="gender">Género</string>
+    <string name="google_maps_api_key">Key google maps</string>
+    <string name="title_activity_maps">Maps</string>
+</resources>
