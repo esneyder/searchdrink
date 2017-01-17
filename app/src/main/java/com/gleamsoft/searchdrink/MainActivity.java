@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -44,14 +45,14 @@ private LinearLayout infoLayout;
 private TextView email;
 private TextView gender;
 private TextView facebookName;
-
+private Button btnnext;
 @Override
 protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     FacebookSdk.sdkInitialize(getApplicationContext());
 
     setContentView(R.layout.activity_main);
-
+    btnnext= (Button) findViewById(R.id.btnnext);
     btnLogin = (LoginButton) findViewById(R.id.login_button);
     email = (TextView) findViewById(R.id.email);
     facebookName = (TextView) findViewById(R.id.name);
@@ -95,7 +96,7 @@ protected void onCreate(Bundle savedInstanceState) {
     });
 
 
-//startActivity(new Intent(this,MapsActivity.class));
+   startActivity(new Intent(this,MapsActivity.class));
     //hass();
 }
 

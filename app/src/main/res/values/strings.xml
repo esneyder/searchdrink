@@ -1,9 +1,17 @@
 ﻿<resources>
     <string name="app_name">SearchDrink</string>
-    <string name="facebook_app_id"> ID facebook APP</string>
+    <string name="facebook_app_id">1802563866676349</string>
     <string name="email">Correo</string>
     <string name="name">Facebook</string>
     <string name="gender">Género</string>
-    <string name="google_maps_api_key">Key google maps</string>
+    <string name="google_maps_api_key">AIzaSyAqNSt0rvLT3DoU6z5kpyMg2SVYxTOChXk</string>
     <string name="title_activity_maps">Maps</string>
+    <string name="pause">Actualizar</string>
+    <string name="resume">Refrescar</string>
+    <string name="latitud">Latitude</string>
+    <string name="longitud">Longitude</string>
+    <string name="title_activity_about">About</string>
+    <string name="title.about">Programmers:</string>
+    <string name="name.about">Alfredo Elizalde</string>
+    <string name="txt.about">Todos los derechos reservados (2017)</string>
 </resources>

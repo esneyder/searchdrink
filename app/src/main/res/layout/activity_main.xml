@@ -92,6 +92,7 @@
                     android:layout_height="wrap_content"
                     android:background="@color/colorPrimary"
                     android:textStyle="bold"
+                    android:id="@+id/btnnext"
                     android:textColor="#fff"
                     android:text="Ir al mapa"
             />
