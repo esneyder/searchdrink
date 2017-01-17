@@ -96,7 +96,12 @@ protected void onCreate(Bundle savedInstanceState) {
     });
 
 
-   startActivity(new Intent(this,MapsActivity.class));
+   btnnext.setOnClickListener(new View.OnClickListener() {
+       @Override
+       public void onClick(View view) {
+           startActivity(new Intent(getBaseContext(),MapsActivity.class));
+       }
+   });
     //hass();
 }
 
